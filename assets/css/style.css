@@ -18,13 +18,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Winky Rough', sans-serif;
+    
 }
 html {
     scroll-behavior: smooth;
 }
 body {
     background-image: url('../img/portada.jpg');
-    background-color: var(--carbon-profundo);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -320,4 +320,74 @@ footer .condition .copyright{
     color: #777;
 }
 
+/*prices*/
+.prices {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.prices h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+.plan-colum {
+    display: grid;
+    gap: 0.6rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: transform 0.3s ease;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-columns: repeat(3, 1fr);
+}
 
+.plan-colum:hover{
+    transform: translateY(-5px);
+}
+
+.plan-start, .plan-pro, .plan-premium {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 0 auto;
+    border: 1.5px solid var(--gris-medio);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan-start:hover, .plan-pro:hover, .plan-premium:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 40px rgba(255, 255, 255, 0.2);
+}
+
+section .plan-colum h4{
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+}
+
+section .plan-colum h4,section .plan-colum p, section .plan-colum li{
+    color: var(--blanco);
+}
+
+section .plan-colum p, section .plan-colum li{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+.plan-colum button {
+    font-size: 1rem;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    border: 0.12px solid var(--dorado);
+    border-radius: 1.25rem;
+    color: var(--blanco);
+    background-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.plan-colum button:hover {
+    background-color: var(--dorado);
+}
