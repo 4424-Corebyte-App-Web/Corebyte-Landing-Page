@@ -6,6 +6,22 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>TraceWine</title>
+    <style>
+        /* Estilo para la sección "Acerca de la App" con marco */
+        #about-app {
+            background-color: #f9f9f9; /* Color de fondo */
+            border: 2px solid #ccc;    /* Marco */
+            padding: 20px;             /* Espaciado interior */
+            margin-bottom: 30px;       /* Espaciado inferior */
+            border-radius: 8px;        /* Bordes redondeados */
+        }
+
+        /* Ajuste de altura mínima y relleno para TraceWine */
+        #about-app .TraceWine {
+            min-height: 150px;
+            padding: 20px;
+        }
+    </style>
 </head>
 <body>
 <nav>
@@ -28,7 +44,7 @@
     </div>
 </nav>
 <main>
-    <!--Hero section-->
+    <!-- Hero section -->
     <section class="hero" id="start">
         <div class="center">
             <div class="top">
@@ -40,15 +56,12 @@
             </div>
         </div>
     </section>
+
     <section class="about" id="about">
         <div class="about-us">
             <h3>Acerca de Nosotros</h3>
         </div>
     </section>
-
-
-
-
 
     <section class="services" id="services">
         <div class="our-services">
@@ -70,7 +83,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="service-card">
                     <h4>Control del proceso de Vinificación</h4>
                     <div class="description">
@@ -82,7 +94,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="service-card">
                     <h4>Administración de la Cartera de Clientes</h4>
                     <div class="description">
@@ -95,7 +106,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="service-card">
                     <h4>Seguimiento de Pedidos</h4>
                     <div class="description">
@@ -107,26 +117,10 @@
                         </p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </section>
     <section class="prices" id="prices">
         <div class="our-prices">
             <h3>Nuestros planes</h3>
@@ -134,28 +128,13 @@
                 <div class="plan-start">
                     <h4>TraceWine Start</h4>
                     <div class="description">
-                        <p>
-                            Este plan está dirigido a pequeños productores que
-                            buscan una solución básica para optimizar su proceso
-                            productivo y comercial.
-                        </p>
+                        <p>Este plan está dirigido a pequeños productores que buscan una solución básica para optimizar su proceso productivo y comercial.</p>
                         <div class="list">
                             <ul>
-                                <li>
-                                    Gestión de inventarios: Control de insumos y
-                                    productos terminados limitado a 50 productos
-                                </li>
-                                <li>
-                                    Control del proceso de vinificación: Gestión básica
-                                    de hasta 2 fases del proceso.
-                                </li>
-                                <li>
-                                    Administración de cartera de clientes: Hasta 50
-                                    clientes con historial básico de pedidos.
-                                </li>
-                                <li>
-                                    Soporte: Atención por correo electrónico.
-                                </li>
+                                <li>Gestión de inventarios: Control de insumos y productos terminados limitado a 50 productos</li>
+                                <li>Control del proceso de vinificación: Gestión básica de hasta 2 fases del proceso.</li>
+                                <li>Administración de cartera de clientes: Hasta 50 clientes con historial básico de pedidos.</li>
+                                <li>Soporte: Atención por correo electrónico.</li>
                             </ul>
                         </div>
                         <div class="button">
@@ -166,11 +145,7 @@
                 <div class="plan-pro">
                     <h4>TraceWine Pro</h4>
                     <div class="description">
-                        <p>
-                            Ideal para medianos productores que necesitan una solución
-                            robusta para optimizar la cadena productiva y mejorar la gestión
-                            de clientes.
-                        </p>
+                        <p>Ideal para medianos productores que necesitan una solución robusta para optimizar la cadena productiva y mejorar la gestión de clientes.</p>
                         <div class="list">
                             <ul>
                                 <li>Gestión de inventarios: Control de hasta 500 productos, con alertas automáticas de stock bajo o excedente.</li>
@@ -188,10 +163,7 @@
                 <div class="plan-premium">
                     <h4>TraceWine Premium</h4>
                     <div class="description">
-                        <p>
-                            Diseñado para grandes productores o empresas con necesidades
-                            avanzadas de gestión en producción y ventas.
-                        </p>
+                        <p>Diseñado para grandes productores o empresas con necesidades avanzadas de gestión en producción y ventas.</p>
                         <div class="list">
                             <ul>
                                 <li>Gestión de inventarios: Control ilimitado de productos con informes avanzados y predicciones de stock.</li>
@@ -209,17 +181,69 @@
             </div>
         </div>
     </section>
-    <section class="about-app" id="about-app">
-        <div class="TraceWine">
-            <h3>TraceWine APP</h3>
+
+
+    <!-- Sección "Acerca de Corebyte" con el marco añadido -->
+    <section class="about-corebyte" id="about-corebyte">
+        <div class="container">
+            <h3>Corebyte APP</h3>
+            <p class="description">
+                Está diseñado para adaptarse a las necesidades<br>
+                específicas de cada usuario, proporcionando<br>
+                herramientas clave para una gestión eficaz del proceso<br>
+                productivo de vinos y pisco, mejorando<br>
+                la eficiencia y optimizando la experiencia tanto para<br>
+                productores como para distribuidores.
+            </p>
+            <div class="download-buttons">
+                <a href="#" class="download-btn">
+                    <i class='bx bxl-apple'></i>
+                    <div>
+                        <span>Download on the</span><br>
+                        <span>App Store</span>
+                    </div>
+                </a>
+                <a href="#" class="download-btn">
+                    <i class='bx bxl-play-store'></i>
+                    <div>
+                        <span>Get it on</span><br>
+                        <span>Google Play</span>
+                    </div>
+                </a>
+            </div>
         </div>
     </section>
+
     <section class="contact" id="contact">
         <div class="our-contact">
-            <h3>Contactanos</h3>
+            <h3>Contáctanos</h3>
+            <br>
+            <p>¿Tienes alguna pregunta o quieres saber más sobre nuestros servicios? ¡Escríbenos!</p>
+            <div class="container">
+                <div class="contact-info">
+                    <h2>Contáctanos</h2>
+                    <p>Tienes alguna pregunta o consulta?<br>Contáctanos a través del formulario a continuación</p>
+                    <div class="info-card">
+                        <p>Prolongación Primavera 2390, Santiago de Surco 15023</p>
+                        <p>+51 904441117</p>
+                        <p>info@corebyte.com</p>
+                        <img src="qr-code.png" alt="QR Code" class="qr-code">
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Nombre completo" required>
+                        <input type="text" placeholder="Teléfono" required>
+                        <input type="email" placeholder="Correo" required>
+                        <textarea placeholder="Mensaje" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 </main>
+
 <footer>
     <div class="footer-top">
         <div class="left">
@@ -237,7 +261,6 @@
                     <a href="#">Servicios</a>
                     <a href="#">Acerca de la app</a>
                     <a href="#">Precios</a>
-
                 </div>
                 <div class="colum">
                     <p>More</p>
